@@ -1,4 +1,4 @@
-B sends ping request (default of 1 request per second) for 1 minute, takes a break for 30
+Question: B sends ping request (default of 1 request per second) for 1 minute, takes a break for 30
 seconds and again sends ping request for 1 minute (default of 1 request per second) to A. B
 implements rate limit using action "-j ACCEPT" for A only and drops echo reply as per X and Y.
 No echo request should be dropped. From B send ping packet to some other machine (e.g.
@@ -7,3 +7,7 @@ behaviour.
 
 
 
+Solution: The screenshot 'ping1.png' tells that machine A pings 10 packets with an interval of 30 secs between each packet
+
+
+The screenshot ping2.png tells that ping request is sent every 60secs and with an interval of 30secs after the first minute.
