@@ -11,10 +11,10 @@ SOLUTION:
 For our implementation we chose 2 machines as
 Machine 1 being linux operating machine and Machine 2 being google.
 
-CALCULATING x AND y VALUES:
+CALCULATING X AND Y VALUES:
 USN-1KS17CS084
-last digits D=4 , hence x=D+10=14
-y=x/2=7
+last digits D=4 , hence X=D+10=14
+Y=X/2=7
 
 DESCRIPTION ABOUT THE OUTPUT SNAPSHOTS:
 The screenshot 'ping1.png' tells that machine A pings 10 packets with an interval of 30 secs between each packet
@@ -35,7 +35,7 @@ We had to spend a lot of time for understanding how ping works as well as learni
 Implementing iptables rules ,adding,deleting rules took a lot of time and understanding,
 
 REFERENCES
-We have referred number of websites for learning about what are iptables,how to ping messages between machines and 
+We have referred number of websites for learning about what iptables are about,how to ping messages between machines and 
 to learn how commands can be implemented
 ttps://www.frozentux.net/iptables-tutorial/chunkyhtml/c2264.html
 https://vitux.com/linux-ping-command/
